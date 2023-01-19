@@ -1,0 +1,47 @@
+<!-- YOUTUBE: net ninja -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sign-up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sign-up-page">
+        <div class="mysignup">
+            <!-- div is for class name  -->
+            <h1>Sign Up</h1>
+            <form method="post">
+                <div class="text_field">
+                    <div class="name">
+                        <input type="text" required id="first-name" placeholder="First Name">
+                        <input type="text" required id="last-name" placeholder="Last Name">
+                    </div>
+                    <input type="text" required placeholder="Mobile.No">
+                    <input type="text" required placeholder="Email Address">
+                    <div class="password">
+                        <input type="password" id="password" required placeholder="Password">
+                        <input type="password" id="comfirm-pw" required placeholder="Comfirm Password">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="agreement">
+            <div class="checkbox-content">
+                <input type="checkbox" id="agreement">
+                <label value="agreement"> I Agree</label>
+            </div>
+            <div class="terms">
+                By clicking register, you agree to the <a href="#" class="text">Terms and Conditions</a> set out by this
+                site, including our Cookie Use.
+            </div>
+        </div>
+
+        <div class="form-buttons">
+            <input type="submit" id="Register" value="Register">
+            <input type="submit" id="Sign-in" value="Sign In">
+        </div>
+    </div>
